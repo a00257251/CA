@@ -1,0 +1,7 @@
+{
+  "20.py::TestTeamcityMessages::testAssert": true, 
+  "20.py::TestTeamcityMessages::testAssertEqual": true, 
+  "20.py::TestTeamcityMessages::testAssertEqualMsg": true, 
+  "20.py::TestTeamcityMessages::testException": true, 
+  "20.py::TestTeamcityMessages::testFail": true
+}
