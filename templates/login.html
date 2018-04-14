@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.map"></script>
+    <script type="text/javascript" src="static/js/s.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='StyleSheet.css') }}">
+    <meta charset="UTF-8">
+    <title>login</title>
+</head>
+<body>
+    <div class="jumbotron">
+        <h1>Footballer</h1>
+        <form id="form-signin" class="form-signin" method="post" action="{{ url_for('login')}}">
+            <label for="inputName" class="sr-only">Username</label>
+            <input type="name" name="inputName" id="inputName" class="form-control" placeholder="Name" required
+                   autofocus>
+            <label for="inputPassword" class="sr-only">Password</label>
+            <input type="password" name="inputPassword" id="inputPassword" class="form-control" placeholder="Password"
+                   required>
+            <button id="btnlogin" type="submit" class="btn btn-lg btn-primary btn-block" type="button">Sign up</button>
+        </form>
+    </div>
+    <footer class="footer">
+        <p>©League+ 2018</p>
+    </footer>
+</div>
+</body>
+</html>
